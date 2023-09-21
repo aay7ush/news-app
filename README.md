@@ -8,7 +8,7 @@ Welcome to the News App! The app allows users to explore trending news articles 
 
 ## Live Site
 
-Check out the live site [here](https://f1tness-app.netlify.app/).
+Check out the live site [here](https://n3ws-app.vercel.app/).
 
 ## Features
 
