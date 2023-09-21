@@ -6,12 +6,9 @@ type Props = {
 }
 
 const ArticlePage = ({ searchParams }: Props) => {
-  // if (
-  //   (searchParams && Object.entries(searchParams).length === 0) ||
-  //   !searchParams
-  // ) {
-  //   return notFound()
-  // }
+  if (!searchParams) {
+    return notFound()
+  }
 
   const article: Article = searchParams
 
